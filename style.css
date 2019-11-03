@@ -1,0 +1,214 @@
+.img-header {
+    height: 60vh;
+    /* object-fit: cover; */
+    background-image: url("images/header.JPG");
+    background-size: cover;
+}
+
+body {
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif !important;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.btn:hover {
+    color: white !important;
+    background-position: right center;
+    /* change the direction of the change here */
+}
+
+.btn-1 {
+    background-image: linear-gradient(to right, #7b00c7 0%, #c90000 100%);
+}
+
+.btn-2 {
+    background-image: linear-gradient(to right, #7b00c7 0%, #c90000 100%);
+}
+
+.btn {
+    transition: 0.5s;
+    background-size: 200% auto;
+    padding: 0.5rem 1rem !important;
+}
+
+.dbl-brd-l {
+    border-left: 3px double purple;
+}
+
+#figma {
+    max-width: 10rem;
+    max-height: 10rem;
+}
+
+#frontend {
+    max-width: 10rem;
+    max-width: 10rem;
+}
+
+#backend {
+    max-width: 10rem;
+    max-width: 10rem;
+}
+
+#img1 {
+    background-image: url("images/img1.JPG");
+    background-size: cover;
+    background-position: center center;
+}
+
+#img2 {
+    background-image: url("images/img2.JPG");
+    background-size: cover;
+    background-position: center center;
+}
+
+#img3 {
+    background-image: url("images/img3.JPG");
+    background-size: cover;
+    background-position: top center;
+}
+
+#img4 {
+    background-image: url("images/img4.JPG");
+    background-size: cover;
+    background-position: center center;
+}
+
+#img5 {
+    background-image: url("images/img5.JPG");
+    background-size: cover;
+    background-position: bottom;
+}
+
+.imag {
+    transition-duration: 0.2s;
+    filter: brightness(70%);
+}
+
+.imag:hover {
+    filter: none;
+}
+
+.height-imgs {
+    height: 20rem;
+}
+
+#col-bg-red {
+    background-image: linear-gradient(to right, #858585 0%, #646464 70%)
+}
+
+#message {
+    max-width: 5rem;
+    max-height: 5rem;
+    margin-left: 2rem;
+}
+
+#msg {
+    height: 10rem;
+}
+
+.msg-color {
+    color: seashell;
+    margin-left: 2rem;
+}
+
+.container-header {
+    width: 100%;
+    position: relative;
+}
+
+.txt-in-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#welcome {
+    color: white;
+    font-size: 5rem;
+}
+
+#myname {
+    color: black;
+    font-size: 2rem;
+}
+
+#fb {
+    height: 2rem;
+    width: 2rem;
+}
+
+#tt {
+    height: 2rem;
+    width: 2rem;
+}
+
+#git {
+    height: 2rem;
+    width: 2rem;
+}
+
+.contact-img {
+    margin-top: 7rem;
+    margin-left: 2rem;
+}
+
+#header-icons {
+    margin-top: 7rem;
+}
+
+.section-color-grey {
+    background-color: #f6f6f6;
+}
+/* Circle */
+.skills figure {
+	position: relative;
+}
+.skills figure::before {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 2;
+	display: block;
+	content: '';
+	width: 0;
+	height: 0;
+	background: rgba(255,255,255,.2);
+	border-radius: 100%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	opacity: 0;
+}
+.skills figure:hover::before {
+	-webkit-animation: circle .75s;
+	animation: circle .75s;
+}
+@-webkit-keyframes circle {
+	0% {
+		opacity: 1;
+	}
+	40% {
+		opacity: 1;
+	}
+	100% {
+		width: 200%;
+		height: 200%;
+		opacity: 0;
+	}
+}
+@keyframes circle {
+	0% {
+		opacity: 1;
+	}
+	40% {
+		opacity: 1;
+	}
+	100% {
+		width: 200%;
+		height: 200%;
+		opacity: 0;
+	}
+}
